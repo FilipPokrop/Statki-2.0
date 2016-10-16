@@ -65,7 +65,7 @@ void Engine::runEngine()
         if(IApoints>19&&points>19)
         {
             state=OVER;
-            text.setString("DEAD-HEAD");
+            text.setString("DRAW");
 
         }
         else if(IApoints>19)
